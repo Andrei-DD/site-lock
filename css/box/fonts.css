@@ -1,0 +1,36 @@
+@font-face {        /*regular-400; medium-500; bold-700*/
+    font-family: 'SFPro';
+    src: url('../../fonts/SFProText-Light.woff2')
+        format('woff2'),
+        url('../../fonts/SFProText-Light.ttf')  /*поддержка старых устройств*/
+        format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('../../fonts/SFProText-Regular.woff2')
+        format('woff2'),
+        url('../../fonts/SFProText-Regular.ttf')  
+        format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('../../fonts/SFProText-Medium.woff2')
+        format('woff2'),
+        url('../../fonts/SFProText-Medium.ttf')  
+        format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('../../fonts/SFProText-Bold.woff2')
+        format('woff2'),
+        url('../../fonts/SFProText-Bold.ttf')  
+        format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}

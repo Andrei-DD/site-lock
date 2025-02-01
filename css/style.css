@@ -1,0 +1,236 @@
+@import url('box/fonts.css'); 
+
+:root{
+    --top-bgcolor: #454F5B;
+    --slider-bgcolor: #fafafa;
+    --main-bgcolor: #fff;
+    --font-color: #161C24;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    min-width: 320px;
+    font-size: 16px;
+    font-family: 'SFPro', 'sans-serif';
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--main-bgcolor);
+    color: var(--font-color);
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    /* height: auto; */
+}
+/* ------------------------ */
+header{
+    max-width: 1440px;
+}
+.top_header{
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+    background-color: var(--top-bgcolor);
+    color: #fff;
+}
+.top_right{
+   width: 156px;
+   position: absolute;
+   top: 9px;
+   right: 100px;
+}
+.top_right a{
+    color: #fff;
+}
+@media (max-width: 1200px) {
+    .top_right{
+        right: 50px;
+    }
+} 
+@media (max-width: 992px) {
+    .top_header p, .top_right a{
+        font-size: 14px;
+    }
+    .top_right{
+        right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .top_right{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .top_header p{
+        font-size: 12px;
+        /* letter-spacing: 2%; */
+    }
+}
+/* ---------------------------------- */
+.logo{
+    margin: 0 100px;
+}
+@media (max-width: 1200px) {
+    .logo{
+        margin: 0 50px;
+    }
+}
+@media (max-width: 576px) {
+    .logo{
+        margin: 0 16px;
+    }
+}
+.bott_header ul li{
+    margin-right: 20px;
+}
+@media (max-width: 1200px) {
+    .bott_header ul li{
+        margin-right: 10px;
+    }
+}
+.bott_header ul li a{
+    font-size: 20px;
+}
+.nav_right{
+    display: flex;
+    margin-right: 88px;
+}
+@media (max-width: 1200px) {
+    .nav_right{
+        margin-right: 50px;
+    }
+}
+.nav_phone img{
+    width: 20px;
+    height: 20px;
+}
+.nav_bask{
+    margin-left: 32px;
+}
+@media (max-width: 1200px) {
+    .nav_bask{
+        margin-left: 16px;
+    }
+}
+.nav_bask img{
+    width: 20px;
+    height: 20px;
+}
+.nav_bask img:first-child{
+    margin-right: 24px;
+}
+@media (max-width: 1200px) {
+    .nav_bask img:first-child{
+        margin-right: 12px;
+    }
+}
+/* ------------------------- */
+.swiper{
+    outline: 1px solid black;
+}
+@media (max-width: 768px) {
+    .slide_foto{
+        display: block;
+    }
+    .foto_look{
+        width: 100%;
+        display: block;
+    }
+    .content{
+        width: 100%;
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .slide_foto{
+        display: flex;
+    }
+    .foto_look{
+        outline: 1px solid black;
+        display: inline-block;
+        width: 50%;
+    }
+    .content{
+        outline: 1px solid black;
+        display: inline-block;
+        width: 50%;
+    }
+}
+/* ----------------- */
+.statistic{
+    outline: 1px solid black;
+    width: 100%;
+    min-height: 160px;
+    background-color: #F2F8FF;
+    margin: 48px 0 93px 0;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .statistic{
+        height: 216px;
+    }
+}
+@media (max-width: 576px) {
+    .statistic{
+        height: 250px;
+    }
+}
+.int{
+    outline: 1px solid black;
+    width: 80%;    /*826px*/   
+    /* min-height: 80px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .int{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.one, .two, .three, .four{
+    width: 200px;
+    /* min-height: 80px; */
+    text-align: center;
+}
+@media (max-width: 576px) {
+    .one, .two, .three, .four{
+        width: 140px;
+    }
+}
+.one p, .two p, .three p, .four p{  
+    font-size: 32px;
+    font-weight: bold; 
+    margin-bottom: 8px;   
+}
+/* ----3-й сверху блок service с тремя подразделами---- */
+.col_box{
+    outline: 1px solid black; 
+    padding: 24px;
+}
+.box_1, .box_2{
+    outline: 1px solid black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.box_1 h2{
+    margin-bottom: 56px;
+}
+.box_note{
+    font-size: 20px;
+}
+.img_icon{
+    outline: 1px solid red;
+    width: fit-content;
+    margin: 0 auto 32px auto;
+}
+.img_icon img{
+    width: 36px;
+}
